@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poetsen+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        body {
+            width: 100%;
+            height: 100vh;
+            background: linear-gradient(to right top, #05372f, #0e6643, #499745, #96c536, #f8ed16)
+        }
+
+        .main-container {
+            width: 100%;
+            height: 100%;
+            overflow-x: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .logo-container {
+            position: relative;
+            padding: 5px;
+            overflow: hidden;
+            border-radius: 50% !important;
+            height: 20rem;
+            border-right: 6px solid #02bdb6;
+            border-left: 6px solid #00a2df;
+            border-bottom: 6px solid #02bdb6;
+            border-top: 6px solid #00a2df;
+            border-right-width: 6px;
+            border-right-style: solid;
+            box-sizing: border-box;
+            background-position: 0 0, 0 100%;
+            background-repeat: no-repeat;
+            background-size: 100% 20px;
+            transition: all .5s ease;
+            background-color: #ffecb9;
+        }
+
+        .logo-img {
+            border-radius: 100%;
+            width: 100%;
+            height: 100%;
+        }
+
+        .social {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .soc-img {
+            width: 4rem;
+            cursor: pointer;
+        }
+
+        .title {
+            color: white;
+            font-size: 2rem;
+            font-family: "Poetsen One", sans-serif;
+            ;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-container">
+
+        <div class="logo-container">
+            <img class="logo-img" src="./assets/funk-logo.png" alt="">
+        </div>
+
+        <h2 class="title">
+            FUNKCOIN ON SOL
+        </h2>
+        <div class="social">
+            <a href="https://t.me/+8lH7uWIgPSIxN2Q0" target="_blank">
+                <img class="soc-img" src="./assets/telegram.svg" alt="" />
+            </a>
+            <a href="https://x.com/real_funkcoin" target="_blank">
+                <img style="margin-left: 2rem" class="soc-img" src="./assets/twitter.svg" alt="" />
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>
